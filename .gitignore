@@ -1,0 +1,58 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.log
+logs/
+
+# Packaging and build artifacts
+build/
+dist/
+wheels/
+*.egg-info
+pip-wheel-metadata/
+.uv-cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+secrets/
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Local runtime state
+*.db
+*.sqlite
+*.sqlite3
+*.pid
+*.sock
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
